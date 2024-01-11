@@ -12,6 +12,7 @@ let result = mumber + string;
 console.log("main Result" + result);
 
 let bool = true;
+
 let mybool = bool + 400;
 console.log("bool sum", mybool);
 
