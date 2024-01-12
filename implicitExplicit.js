@@ -1,6 +1,6 @@
 // IMPLICT CONVERSATION //
 
-//Implicit Type conversion - Automatic conversion //
+//Implicit Type conversion -    Automatic conversion //
 
 // ex:- var someNumber -Number("5.99") //
 
