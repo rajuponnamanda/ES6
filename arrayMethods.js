@@ -33,7 +33,7 @@ var data = [1, 1, 2, 3, 4, 4];
 
 console.log(Array.isArray(data));
 
-// Mapping it is helps to every element in the array//
+// Mapping it is hiderating the  every element in the array//
 
 var data = [100, 110, 12, 130, 141, 151];
 
