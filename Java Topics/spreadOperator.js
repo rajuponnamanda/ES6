@@ -1,10 +1,11 @@
-set1 = {
-  name: "hello",
-  age: 40,
+let person = {
+  name: "Raju Ponnamanda",
+  age: 39,
+  role: "developer",
 };
 
-set2 = {
-  ...set1,
-  email: "jhfdsjndk@gmail.com",
+let complete = {
+  ...person,
+  email: "jsfjsjfs@gmail.com",
 };
-console.log(set2);
+console.log(complete);

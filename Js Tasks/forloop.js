@@ -58,3 +58,17 @@ for (let key in persion) {
 }
 
 console.log(resultArray, "hello");
+
+let arrays = [
+  ["id", "1"],
+  ["name", "Raju Ponnamanda"],
+  ["age", "27"],
+  ["proffession", "Developer"],
+];
+
+let onjectsAr = {};
+for (let i = 0; i < arrays.length; i++) {
+  let [key, value] = arrays[i];
+  onjectsAr[key] = value;
+}
+console.log(onjectsAr);
