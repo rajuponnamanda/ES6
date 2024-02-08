@@ -1,24 +1,45 @@
-// Variables are containers for storing information.
-//  Creating a variable in JavaScript is called "declaring" a variable: var carName;
-//   After the declaration, the variable is empty (it has no value).
+//  VAR & LET & CONST //
 
-var number = 4;
-console.log(number);
-// let number = 44;
-// console.log(number);
+// var
+// declare variables any number of times
+// you can assign new values to var to var variables
 
-// es6 = ecma Script 6//
-//diffrence b/w const and var and le//
+//Example:-
 
-var name = "raju";
-var b = 25;
-var c = null;
-var d = undefined;
+var userName = "rajuponnamanda";
+var userName = "Jhon"; // over ride the value
 
-//blocke scoped variable//
+// let
+// you cannot re-declare the same variables again
+// you can assign the value any number of times
+// the variables defined using let are block levels
 
-{
-  let b = "this";
-  console.log(b);
+//Example:-
+
+let userId = 10;
+// let userId=29; // it throw a error //
+
+// block level //
+if (a < b) {
+  let userId = 20;
+  console.log(userId);
 }
-console.log(b);
+
+// const
+// you have to initilize a value for const variables
+// you cannot redeclare the same variables in the same scope block level
+// redeclare butr inside a block
+// you cannot assign a new value to const variable
+
+//Example:-
+
+const userCity = "NYC";
+
+// const userCity ="bangalore"; its throw a error
+
+// block level
+if (a < b) {
+  const userCity = "Bangalore";
+  console.log(userCity);
+}
+console.log(userCity);
