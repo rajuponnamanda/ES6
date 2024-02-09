@@ -29,3 +29,6 @@ function findingRepeatednumber(arr) {
 
 let result = findingRepeatednumber(numbers);
 console.log(result);
+
+// let result = findRepeatedNumbers(numbers);
+// console.log("Repeated numbers in the array:", result);
