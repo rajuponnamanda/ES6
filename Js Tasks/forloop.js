@@ -42,6 +42,10 @@ for (let i = 0; i < singleArray.length; i++) {
 }
 console.log(result);
 
+
+
+
+
 // trying to convert object to array by using for loop /
 
 let persion = {
