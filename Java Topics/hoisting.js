@@ -3,12 +3,10 @@
 // This means that you can variables and functions in your code even
 // before they are declared. "//
 
-
-
+getName();
 const getName = () => {
   console.log("Hrkwdn");
 };
-getName();
 
 greet();
 function greet() {

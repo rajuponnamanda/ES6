@@ -10,3 +10,4 @@ function calculate(x, y, operation) {
 console.log(calculate(1, 1, add));
 console.log(calculate(2, 2, divide));
 
+

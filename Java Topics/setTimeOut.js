@@ -1,7 +1,6 @@
 // SET TIME OUT //
 
 function delayedFunction() {
-  alert("Delyed function excuted");
+  console.log("Delyed function excuted");
 }
 setTimeout(delayedFunction, 3000);
-console.log();

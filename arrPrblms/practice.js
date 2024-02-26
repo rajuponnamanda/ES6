@@ -78,6 +78,8 @@ console.log(filte);
 
 // Slice //
 
+
+
 var sli = [1, 2, 3, 33, 4, 44];
 
 console.log(sli.slice(0, 4));
